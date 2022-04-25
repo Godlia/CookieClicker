@@ -126,7 +126,7 @@ bool checkForm()
 {
     _Name = GameObject.Find("NameInput").GetComponent<InputField>().text;
     phone = GameObject.Find("Phone").GetComponent<InputField>().text;
-    if (_Name == "" || phone == "")
+    if (_Name == "")
     {
         return false;
     }
